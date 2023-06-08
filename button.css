@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding: 1.6rem;
+  background-image: url("/images/gilles-lambert-mSK5nNsAsLY-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  letter-spacing: 6px;
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
